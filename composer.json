@@ -5,7 +5,7 @@
     "description": "App del curso de Symfony 2",
     "authors":[
 	{
-	    "name": "Carlos Bonache Casado",
+	    "name": "Carlos Bonache Casado"
 	}
     ],
     "autoload": {
