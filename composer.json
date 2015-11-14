@@ -1,8 +1,13 @@
 {
-    "name": "symfony/framework-standard-edition",
+    "name": "Curso Symfony App"
     "license": "MIT",
     "type": "project",
-    "description": "The \"Symfony Standard Edition\" distribution",
+    "description": "App del curso de Symfony 2",
+    "authors":[
+	{
+	    "name": "Carlos Bonache Casado",
+	}
+    ],
     "autoload": {
         "psr-4": { "": "src/" }
     },
