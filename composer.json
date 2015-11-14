@@ -1,5 +1,5 @@
 {
-    "name": "app/curso_symfony",
+    "name": "curso/symfony_app",
     "license": "MIT",
     "type": "project",
     "description": "App del curso de Symfony 2",
