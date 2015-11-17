@@ -22,12 +22,4 @@ class RecipesController extends Controller {
                 array('recipe' => $id)
         );
     }
-    
-//    public function indexTwigAction($id) {
-//
-//        return $this->render(
-//                'recipes/number.html.twig',
-//                array('recipe' => $id)
-//        );
-//    }
 }
