@@ -5,3 +5,7 @@ app:
 recipes:
     path: "recipes/{id}"
     defaults: { _controller: AppBundle:Recipes:index }
+    
+#recipes:
+#    path: "recipes/{id}"
+#    defaults: { _controller: AppBundle:Recipes:index }
