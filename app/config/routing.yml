@@ -1,3 +1,7 @@
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
+
+recipes:
+    path: "recipes/{id}"
+    defaults: { _controller: AppBundle:Recipes:index }
