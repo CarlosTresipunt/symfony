@@ -9,7 +9,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 
 class RecipesController extends Controller {
 
-    public function indexAction($id) {
+    public function indexAction($slug) {
 
         // Render PHP
 //        return $this->render(
@@ -19,7 +19,7 @@ class RecipesController extends Controller {
         // Render Twing
         return $this->render(
                 'recipes/index.html.twig',
-                array('recipe' => $id)
+                array('recipe' => $slug)
         );
     }
 }

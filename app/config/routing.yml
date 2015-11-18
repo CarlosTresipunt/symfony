@@ -3,8 +3,10 @@ app:
     type:     annotation
 
 recipes:
-    path: "recipes/{id}"
-    defaults: { _controller: AppBundle:Recipes:index }
+    path: "recipes/{slug}"
+    defaults: { _controller: AppBundle:Recipes:index, slug: no-name }
+    requirements:
+        slug:   "[a-z\-]+"
     
 #recipes:
 #    path: "recipes/{id}"
